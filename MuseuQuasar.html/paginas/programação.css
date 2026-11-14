@@ -1,0 +1,129 @@
+html {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    background: #282c34;
+    color: #abb2bf;
+    gap: 0px;
+    font-size: large;
+    text-decoration: solid;
+    border: 20%;
+    gap: 10%;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(126, 108, 108);
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    border: 2px solid transparent;
+    text-decoration: none;
+    transition: 1.0s;
+    color: aliceblue;
+}
+a:hover {
+    border-radius: 15px;
+    background-color: aliceblue;
+    color: black;
+   
+}
+.tr{
+   border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgba(110, 75, 75, 0.459);
+    min-height: 90px; 
+    max-width: 500px;
+    font-size: 45px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+    cursor: pointer;
+    min-width: 100px;
+   padding: 10px;
+}
+.tr:hover{
+    transform: scale(1.1);
+    color: rgb(241, 235, 235);
+    background-color: rgba(130, 104, 104, 0.308);
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+#inicio{
+    text-align: center;
+    font-size: 25px;
+    
+
+}
+#MuseuQuasar{
+    font-size: 60px;
+    color: rgb(152, 136, 116);
+    text-decoration: underline aliceblue;
+    width: 100%;
+}
+#tabela{
+    border-collapse: collapse;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+    font-size: 30px;
+}
+#duvida{
+    text-align: left;
+    color: white;
+}
+#cabeçalho{
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+}
+#recomendado{
+    font-weight: bold;
+    font-size: 20px;
+    color: bisque;
+}
+li{
+    list-style: none;
+}
+li::before{
+    content: "✔";
+    color: green;;
+}
+#seção{
+    padding: 0;
+    padding-left: 10px;
+}
+th, td {
+    border: 1px solid #abb2bf;
+    padding: 0.5rem 0.75rem;
+}
+
+th {
+    color: #98c379;   /* verde do cabeçalho, ajuste como preferir */
+}
+#banner {
+    background-image: url('../midias/imagem_melhorada.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+}

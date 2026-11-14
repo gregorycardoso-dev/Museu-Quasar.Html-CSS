@@ -1,0 +1,151 @@
+html {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    background: #282c34;
+    color: #abb2bf;
+    font-size: large;
+    border: 2px solid rgb(126, 108, 108);
+    border-radius: 5px;
+    padding: 2.5rem 1.25rem 1.875rem 0.625rem;
+    /* topo direita baixo esquerda */
+    letter-spacing: 1px;
+    margin: 0.625rem;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    /* os botões quebram de linha no celular */
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 0.625rem;
+}
+
+.tr {
+    border: 2px solid white;
+    border-radius: 1.25rem;
+    background-color: rgba(110, 75, 75, 0.459);
+    min-height: 5.625rem;
+    /* 90px */
+    min-width: 6.25rem;
+    /* 100px */
+    max-width: 31.25rem;
+    /* 500px */
+    font-size: clamp(1.5rem, 6vw, 2.8125rem);
+    /* 45px no máximo */
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.tr:hover {
+    transform: scale(1.1);
+    color: rgb(241, 235, 235);
+    background-color: rgba(130, 104, 104, 0.308);
+}
+
+.inicio {
+    text-align: center;
+    font-size: clamp(1.75rem, 7vw, 2.5rem);
+    /* 40px */
+    position: static;
+}
+
+#quasarmuseu {
+    font-size: clamp(2.25rem, 10vw, 3.75rem);
+    /* 60px */
+    color: rgb(152, 136, 116);
+    text-decoration: underline aliceblue;
+}
+
+.seção {
+    font-size: 1.875rem;
+    /* 30px */
+    color: #61afef;
+    text-align: center;
+    border-bottom: 2px solid #61afef;
+}
+
+.descrição {
+    font-size: 1.25rem;
+    /* 20px */
+    color: #abb2bf;
+    text-align: center;
+}
+
+.imagem {
+    border: #282c34 3px solid;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 45rem;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    /* mesma proporção de 45rem x 30rem */
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.imagem:hover {
+    transform: scale(1.01);
+    border: #e6c81a 3px solid;
+}
+
+figcaption {
+    font-size: 0.9375rem;
+    /* 15px */
+    color: #abb2bf;
+    text-align: center;
+}
+
+video {
+    display:block;
+    margin: auto;
+    width: 50%;
+    max-width: 25rem;
+    height: auto;
+}
+
+#video-container {
+    border: white 3px solid;
+    background-image: url("../midias/image.png");
+    background-size: cover;
+}
+
+#titulovideo {
+    text-align: center;
+    color: #7a7f6a;
+    font-size: 1.875rem;
+    /* 30px */
+    border-bottom: 2px solid #f9fafa;
+    border-top: 2px solid #0e0e0f;
+}
+
+h4 {
+    font-size: 1.875rem;
+    /* 30px */
+    color: #efe7e7;
+    text-align: left;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner {
+    background-image: url('../midias/imagem_melhorada.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+}

@@ -1,0 +1,71 @@
+html {
+    background: black;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inicio {
+    text-align: center;
+    padding: 0;
+    font-size: 1.5625rem;
+    color: #abb2bf;
+
+    background: #282c34;
+    border: #343942;
+    min-height: 100%;
+    border: 30%;
+    gap: 10%;
+    border-radius: 0.3125rem;
+    padding-left: 0.625rem;
+    border-width: 0.3125rem;
+    border-color: rgb(126, 108, 108);
+    padding-right: 1.25rem;
+    padding-top: 3.125rem;
+    padding-bottom: 2.5rem;
+    letter-spacing: 0.0625rem;
+}
+
+#agendamento {
+    color: rgb(152, 136, 116);
+    text-decoration: underline aliceblue;
+}
+
+.dados {
+    border-radius: 0.625rem;
+    border-style: double;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1.875rem;
+    gap: 3.125rem;
+    font-size: 1.5625rem;
+    box-sizing: border-box;
+}
+
+fieldset {
+    background: #282c34;
+    color: #abb2bf;
+    border: #343942;
+    min-height: 100%;
+    border: 30%;
+    gap: 10%;
+    border-radius: 0.3125rem;
+    padding-left: 0.625rem;
+    border-width: 0.3125rem;
+    border-color: rgb(126, 108, 108);
+    padding-right: 1.25rem;
+    padding-top: 3.125rem;
+    padding-bottom: 2.5rem;
+    letter-spacing: 0.0625rem;
+}
+
+.legenda {
+    font-weight: bold;
+    color: rgb(76, 135, 180);
+}
+
+input {
+    border-radius: 5%;
+    background-color: rgb(rgba(155, 125, 125, 0) green blue / alpha);
+}

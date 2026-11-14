@@ -1,0 +1,193 @@
+section {
+    background: #282c34;
+    color: #abb2bf;
+    gap: 0;
+    font-size: large;
+    text-decoration: solid;
+    border: 20%;
+    gap: 10%;
+    border-radius: 0.3125rem;
+    padding-left: 0.625rem;
+    border-width: 0.125rem;
+    border-style: solid;
+    border-color: rgb(126, 108, 108);
+    padding-right: 1.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.875rem;
+    letter-spacing: 0.0625rem;
+    margin: 0.625rem;
+}
+
+html {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+fieldset {
+    border: 0.625rem;
+}
+
+a {
+    text-decoration: none;
+    transition: 1.0s;
+    color: aliceblue;
+}
+
+a:hover {
+    border: 0.125rem solid transparent;
+    border-radius: 0.9375rem;
+    background-color: aliceblue;
+    color: black;
+}
+
+html {
+    font: bold;
+}
+
+.inicio {
+    text-align: center;
+    font-size: 2.5rem;
+    position: static;
+}
+
+img {
+    width: 25rem;
+    height: 20rem;
+    border-radius: 0.625rem;
+    object-fit: cover;
+    transition: 0.5s;
+    border-width: 0.125rem;
+    border: #282c34 0.1875rem solid;
+    display: block;
+    margin: auto;
+}
+
+img:hover {
+    transform: scale(1.05);
+    border-style: solid;
+    border-color: rgb(254, 229, 8);
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    max-width: 170ch;
+    text-align: center;
+}
+
+figcaption {
+    opacity: 0.5;
+    text-align: center;
+}
+
+.parte {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6.25rem;
+}
+
+.tr {
+    border-width: 0.125rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1.25rem;
+    background-color: rgba(110, 75, 75, 0.459);
+    min-height: 5.625rem;
+    max-width: 31.25rem;
+    font-size: 2.8125rem;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    min-width: 6.25rem;
+}
+
+.tr:hover {
+    transform: scale(1.1);
+    color: rgb(241, 235, 235);
+    background-color: rgba(130, 104, 104, 0.308);
+    border-width: 0.125rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1.25rem;
+}
+
+li::marker {
+    color: whitesmoke;
+}
+
+#quasarmuseu {
+    font-size: 3.75rem;
+    color: rgb(152, 136, 116);
+    text-decoration: underline aliceblue;
+}
+
+#in {
+    background-color: black;
+    border: none;
+    margin: 0;
+}
+
+.textoinfo {
+    opacity: 0.5;
+    text-align: left;
+    padding-left: 0.625rem;
+}
+
+#outra {
+    text-align: left;
+    padding-left: 0;
+    gap: 0;
+}
+
+#porque {
+    text-align: left;
+    padding-left: 0;
+    font-size: 0.9375rem;
+    padding: 0;
+}
+
+.porque {
+    padding-left: 0.625rem;
+    font-size: 0.9375rem;
+    text-align: left;
+}
+
+#banner {
+    background-image: url('../MuseuQuasar.html/midias/imagem_melhorada.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+}
+
+.visita {
+    border-width: 0.125rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.625rem;
+    background-color: rgba(50, 37, 223, 0.459);
+    height: 3.75rem;
+    text-align: left;
+    margin-right: 12.5rem;
+}
+
+.nosso {
+    padding-left: 1.25rem;
+    font-size: 1.25rem;
+}
